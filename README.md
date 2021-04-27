@@ -19,7 +19,9 @@ Mini project for Firewall Manager
     ```shell script
     java -Dserver.port=8080 -jar fw_manager-1.0.0.jar
     ```
-5. 配合Nginx反代 + SSL可以实现HTTPS？ 自己暂时没有此场景的需求。
+5. 浏览器访问 http://{IP}:{PORT}
+6. 访问web首页，会自动获取客户端的IP；
+7. 配合Nginx反代 + SSL可以实现HTTPS？ 自己暂时没有此场景的需求；
 
 目前已经达到个人使用的目的，暂时不考虑添加功能或其他更新。
 
