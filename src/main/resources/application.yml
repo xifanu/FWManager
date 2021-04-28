@@ -1,5 +1,5 @@
 server:
-  port: 80
+  port: 9898
 spring:
   thymeleaf:
     cache: false
