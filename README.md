@@ -28,7 +28,7 @@ Mini project for Firewall Manager
     **caddy2示例配置：  **
     
     *（修改为你的域名和邮箱，caddy2会自动配置SSL证书）*
-    ```json
+    ```
     https://yourdomain.com {
         reverse_proxy localhost:9898 {
             header_up Host {http.reverse_proxy.upstream.hostport}
