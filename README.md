@@ -23,9 +23,9 @@ Mini project for Firewall Manager
 6. 访问web首页，会自动获取客户端的IP；  
 7. 【进阶配置】：  
     
-    **配合Caddy2的反代功能，可以快速实现HTTPS访问  **
+    **配合Caddy2的反代功能，可以快速实现HTTPS访问**
     
-    **caddy2示例配置：  **
+    **caddy2示例配置：**
     
     *（修改为你的域名和邮箱，caddy2会自动配置SSL证书）*
     ```
