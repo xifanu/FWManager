@@ -7,6 +7,19 @@ Mini project for Firewall Manager
 ## 支持的功能
 - UFW防火墙放行IP
 
+## 使用前提
+
+安装了 UFW 防火墙，并配置好以下规则：  
+```shell script
+ufw reset                       # UFW 重置规则
+ufw allow 22                    # 放行 SSH 端口
+ufw allow from 123.123.123.123  # 放行指定 IP
+ufw allow from 123.123.12.12    # 放行指定 IP
+ufw default deny incoming       # 阻止入
+ufw default allow outgoing      # 放行出
+ufw enable                      # 启用 UFW
+```
+
 **使用简记：**
 
 1. 适用于安装、启用了UFW防火墙的Linux系统；  
